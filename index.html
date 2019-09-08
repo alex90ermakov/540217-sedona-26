@@ -93,6 +93,11 @@
           <button type="button">Поиск гостиницы в Седоне</button>
         </div>
       </section>
+      <section>
+        <h2>Карта</h2>
+        <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="Карта">
+        <button type="button">Закрыть</button>
+      </section>
     </main>
     <footer>
         <a href=""><span>#visitsedona</span></a>
@@ -107,14 +112,29 @@
       </footer>
       <!--попытка разметки контента всплывающего окна-->
       <section>
-        <p>Дата заезда: 24 апреля 2017<br>
-         Дата выезда: 4 июля 2017 <br>
-         Взрослые: 2. Дети: 0.</p>
-         <button type="button"> Найти</button>
+        <form>
+          <fieldset>
+            <p>
+              <label for="in">Дата заезда</label>
+              <input type="date" id="in" value="24.04.2017">
+            </p>
+            <p>
+              <label for="out">Дата выезда</label>
+              <input type="date" id="out" value="24.04.2017">
+            </p>
+            <p>
+              <lapel for="adults">Взрослые:</label>
+              <input type="number" min="0" max="10" value="2">
+            </p>
+            <p>
+              <lapel for="adults">Дети:</label>
+              <input type="number" min="0" max="10" value="0">
+            </p>
+            <p>
+              <input type="submit" value="Найти">
+            </p>
+          </form>
+        </fieldset>
       </section>
-      <section>
-        <h2>Карта</h2>
-        <button type="button">Закрыть</button>
-    </section>
   </body>
 </html>
