@@ -21,7 +21,7 @@
     <main>
       <form>
         <fieldset>
-          <p><strong>Инфраструктура:</strong></p>
+          <legend>Инфраструктура:</legend>
           <p>
             <input type="checkbox" checked name="pool" id="pool">
             <label for="pool">Бассейн</label>
@@ -34,7 +34,9 @@
             <input type="checkbox" name="wifi" id="wifi">
             <label for="wifi">Wi Fi</label>
           </p>
-          <p><strong>Тип жилья:</strong></p>
+        </fieldset>
+        <fieldset>
+          <legend>Тип жилья:</legend>
           <p>
             <input type="checkbox" checked name="hotel" id="hotel">
             <label for="hotel">Гостиница</label>
@@ -47,12 +49,12 @@
             <input type="checkbox" checked name="apartment" id="apartment">
             <label for="apartment">Апартаменты</label>
           </p>
+        </fieldset>
+        <fieldset>
+          <legend>Стоимость в сутки (Р):</legend>
+          <input type="range" min="0" max="4000" step="1" value="3000">
           <p>
-            <label for="price">Стоимость в сутки (Р):</label>
-          </p>
-          <input type="range" min="0" max="4000" step="1" value="3000" id="price">
-          <p>
-            <button type="submit" value="Показать">Показать
+            <button type="submit">Показать
             </button>
           </p>
         </fieldset>
@@ -78,36 +80,36 @@
           <li>
             <article>
               <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="image">
-              <a href="#">
-                <h2>Amara resort & spa</h2>
-              </a>
+              <h2>
+                <a href="#">Amara resort & spa</a>
+              </h2>
               <p>Гостиница от 4000 р.</p>
-              <button type="submit">Подробнее</button>
-              <button type="submit">Забронировать</button>
+              <a href="#">Подробнее</a>
+              <a href="#">Забронировать</a>
               <span>Рейтинг: 8,5</span>
             </article>
           </li>
           <li>
             <article>
               <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="image">
-              <a href="#">
-                <h2>Desert Quail Inn</h2>
-              </a>
+              <h2>
+                <a href="#">Desert Quail Inn</a>
+              </h2>
               <p>Мотель от 3000 р.</p>
-              <button type="submit">Подробнее</button>
-              <button type="submit">Забронировать</button>
+              <a href="#">Подробнее</a>
+              <a href="#">Забронировать</a>
               <span>Рейтинг: 8,9</span>
             </article>
           </li>
           <li>
             <article>
               <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="image">
-              <a href="#">
-                <h2>Villas at Poco Diablo</h2>
-              </a>
+              <h2>
+                <a href="#">Villas at Poco Diablo</a>
+              </h2>
               <p>Аппартаменты от 2000 р.</p>
-              <button type="submit">Подробнее</button>
-              <button type="submit">Забронировать</button>
+              <a href="#">Подробнее</a>
+              <a href="#">Забронировать</a>
               <span>Рейтинг: 9,2</span>
             </article>
           </li>
