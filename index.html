@@ -36,12 +36,12 @@
           <li>
             <h3>Настоящий городок</h3>
             <p>Седона — не аттракцион для туристов, там течет своя жизнь</p>
-            <img src="img/town.jpg" width="800" height="400" alt="вид городка">
+            <img src="img/town.jpg" width="800" height="400" alt="Вид городка">
           </li>
           <li>
             <h3>Там есть мост дьвола</h3>
             <p>Да, по нему можно пройти если конечно вы осмелитесь</p>
-            <img src="img/canyon.jpg" width="800" height="400" alt="вид каньона">
+            <img src="img/canyon.jpg" width="800" height="400" alt="Вид каньона">
           </li>
           <li>
             <h3>Небольшая площадь</h3>
@@ -80,24 +80,24 @@
           <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне.</p>
           <button type="button">Поиск гостиницы в Седоне</button>
         </div>
-        <form>
+        <form action="" method="post">
           <fieldset>
-            <legend>Форма бронирования</legend>
+            <legend class="visually-hidden">Форма бронирования</legend>
             <p>
-              <label for="in">Дата заезда</label>
-              <input type="date" id="in" value="24.04.2017">
+              <label for="arrival-date">Дата заезда</label>
+              <input id="arrival-date" type="text" name="arrival" value="" placeholder="24 АПРЕЛЯ 2017">
             </p>
             <p>
-              <label for="out">Дата выезда</label>
-              <input type="date" id="out" value="24.04.2017">
+              <label for="departure-date">Дата выезда</label>
+              <input id="departure-date" type="text" name="departure" value="" placeholder="4 ИЮЛЯ 2017">
             </p>
             <p>
               <label for="adults">Взрослые:</label>
-              <input type="number" min="0" max="10" value="2" id="adults">
+              <input id="adults" type="number" name="adults" min="0" max="10" value="2">
             </p>
             <p>
               <label for="child">Дети:</label>
-              <input type="number" min="0" max="10" value="0" id="child">
+              <input id="child" type="number" name="child" min="0" max="10" value="0">
             </p>
             <p>
               <button type="submit"> Найти</button>
@@ -107,16 +107,16 @@
       </section>
       <section>
         <h2>Карта</h2>
-        <img src="img/map.png" width="1200" height="594" alt="Карта">
+        <img src="img/map.png" width="1200" height="594" alt="Расположение города на карте">
       </section>
     </main>
     <footer>
       <a href="#">#visitsedona</a>
       <div>
         <ul>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Youtube</a></li>
+          <li><a href="https://twitter.com/" aria-label="Твиттер">Twitter</a></li>
+          <li><a href="https://facebook.com/" aria-label="Фейсбук">Facebook</a></li>
+          <li><a href="https://youtube.com/" aria-label="Ютюб">Youtube</a></li>
         </ul>
       </div>
       <p>Website by <a href="https://www.htmlacademy.ru/intensive/htmlcss">html academy</a></p>
