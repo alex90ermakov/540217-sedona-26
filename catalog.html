@@ -3,18 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <title>Гостиницы</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="inner_page">
     <header>
-      <nav>
+      <nav class="inner_navigation">
         <a href="#">
           <img src="img/logo.png" width="140" height="72" alt="Логотип Седона">
         </a>
-        <ul>
-          <li><a href="#">Информация</a></li>
-          <li><a href="#">Фото и видео</a></li>
-          <li><a href="#">Карта штата</a></li>
-          <li><a href="#">Гостиницы</a></li>
+        <ul class="navigation_list">
+          <li class="navigation_item"><a href="#">Информация</a></li>
+          <li class="navigation_item"><a href="#">Фото и видео</a></li>
+          <li class="navigation_item"><a href="#">Карта штата</a></li>
+          <li class="navigation_item"><a href="#">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
@@ -54,7 +56,7 @@
           <legend>Стоимость в сутки (Р):</legend>
           <input type="range" min="0" max="4000" step="1" value="3000">
           <p>
-            <button type="submit">Показать
+            <button type="submit" class="button">Показать
             </button>
           </p>
         </fieldset>
@@ -75,57 +77,57 @@
         </ul>
       </section>
       <section>
-       <h1>Каталог гостиниц</h1>
-        <ul>
-          <li>
+       <h1 class="visually-hidden">Каталог гостиниц</h1>
+        <ul class="hotels_list">
+          <li class="hotels_item">
             <article>
               <img src="img/amara_resort.jpg" width="135" height="90" alt="Изображение гостиницы">
               <h2>
                 <a href="#">Amara resort & spa</a>
               </h2>
               <p>Гостиница от 4000 р.</p>
-              <a href="#">Подробнее</a>
-              <a href="#">Забронировать</a>
+              <a class="button" href="#">Подробнее</a>
+              <a class="button" href="#">Забронировать</a>
               <span>Рейтинг: 8,5</span>
             </article>
           </li>
-          <li>
+          <li class="hotels_item">
             <article>
               <img src="img/desert_quail_inn.jpg" width="135" height="90" alt="Изображение мотеля">
               <h2>
                 <a href="#">Desert Quail Inn</a>
               </h2>
               <p>Мотель от 3000 р.</p>
-              <a href="#">Подробнее</a>
-              <a href="#">Забронировать</a>
+              <a class="button" href="#">Подробнее</a>
+              <a class="button" href="#">Забронировать</a>
               <span>Рейтинг: 8,9</span>
             </article>
           </li>
-          <li>
+          <li class="hotels_item">
             <article>
               <img src="img/villas_at_poco_diablo.jpg" width="135" height="90" alt="Изображение апартаментов">
               <h2>
                 <a href="#">Villas at Poco Diablo</a>
               </h2>
               <p>Аппартаменты от 2000 р.</p>
-              <a href="#">Подробнее</a>
-              <a href="#">Забронировать</a>
+              <a class="button" href="#">Подробнее</a>
+              <a class="button" href="#">Забронировать</a>
               <span>Рейтинг: 9,2</span>
             </article>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="inner_footer">
       <a href="#">#visitsedona</a>
-      <div>
+      <div class="footer_social">
         <ul>
-          <li><a href="https://twitter.com/" aria-label="Твиттер">Twitter</a></li>
-          <li><a href="https://facebook.com/" aria-label="Фейсбук">Facebook</a></li>
-          <li><a href="https://youtube.com/" aria-label="Ютюб">Youtube</a></li>
+          <li><a class="social_button" href="https://twitter.com/" aria-label="Твиттер">Twitter</a></li>
+          <li><a class="social_button" href="https://facebook.com/" aria-label="Фейсбук">Facebook</a></li>
+          <li><a class="social_button" href="https://youtube.com/" aria-label="Ютюб">Youtube</a></li>
         </ul>
       </div>
-      <p>Website by <a href="https://www.htmlacademy.ru/intensive/htmlcss">html academy</a></p>
+      <p class="footer_copyright">Website by <a href="https://www.htmlacademy.ru/intensive/htmlcss">html academy</a></p>
     </footer>
   </body>
 </html>
