@@ -7,22 +7,30 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
-      <nav class="inner_navigation">
-        <a href="#">
+    <header class="main_header">
+      <nav class="main_navigation">
+        <div class="header_container">
+          <a href="#" class="main_header_logo">
           <img src="img/logo.png" width="140" height="72" alt="Логотип Седона">
-        </a>
-        <ul class="navigation_list">
-          <li class="navigation_item"><a href="#">Информация</a></li>
-          <li class="navigation_item"><a href="#">Фото и видео</a></li>
-          <li class="navigation_item"><a href="#">Карта штата</a></li>
-          <li class="navigation_item"><a href="#">Гостиницы</a></li>
-        </ul>
+          </a>
+          <div class=" left_menu">
+            <ul class="navigation_list">
+              <li class="navigation_item"><a href="#">Информация</a></li>
+              <li class="navigation_item"><a href="#">Фото и видео</a></li>
+            </ul>
+          </div>
+          <div class="right_menu">
+            <ul class="navigation_list">
+              <li class="navigation_item"><a href="#">Карта штата</a></li>
+              <li class="navigation_item"><a href="catalog.html">Гостиницы</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
-    <main >
+    <main>
       <div class="inner_page"></div>
-      <form action="" method="post">
+      <form action="" method="post" class="search_form">
         <fieldset>
           <legend>Инфраструктура:</legend>
           <p>
@@ -120,7 +128,7 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="#">#visitsedona</a>
+      <a href="#" class="hashtag">#visitsedona</a>
       <div class="footer_social">
         <ul>
           <li><a class="social_button" href="https://twitter.com/" aria-label="Твиттер">Twitter</a></li>
