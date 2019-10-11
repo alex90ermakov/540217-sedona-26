@@ -166,12 +166,27 @@ a {
   color: #b7b7b7;
 }
 
-.features_list {
+.feature_info {
+  width: 1200px;
+  height: 216px;
+  border: 1px solid yellow;
+  margin: auto;
+}
+
+.features_list  {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+margin: auto;
+
   list-style: none;
 }
 
-.feature_item {
+.feature_item  {
+  display: block;
   text-align: center;
+  border: 1px solid green;
+
 }
 
 .feature_item h3 {
@@ -179,8 +194,61 @@ a {
   line-height: 26px;
 }
 
+.feature_1{
+  order:-1;
+  width: 100%;
+}
+
+.feature_6,
+.feature_7,
+.feature_8 {
+  order: 0;
+}
+
+.feature_2,
+.feature_3,
+.feature_4,
+.feature_5 {
+  order: 1;
+}
+
+.feature_2 {
+  width: 100%;
+}
+
+.reservation {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.search_form {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+  justify-content: space-around;
+}
+
+.hotels_list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid green;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .footer a {
   color: #000000;
+}
+
+.hashtag {
+  font-size: 21px;
+  line-height: 26px;
 }
 
 .footer_social {
@@ -193,14 +261,6 @@ a {
 
 .social_button {
   color: #000000;
-}
-
-.inner_navigation {
-  font-size: 14px;
-  line-height: 26px;
-  color: #000000;
-
-  background-color: #ffffff;
 }
 
 .hotels_list {

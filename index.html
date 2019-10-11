@@ -9,69 +9,73 @@
   <body>
     <header class="main_header">
       <nav class="main_navigation">
-        <a href="#" class="main_header_logo">
+        <div class="header_container">
+          <a href="#" class="main_header_logo">
           <img src="img/logo.png" width="140" height="72" alt="Логотип Седона">
-        </a>
-        <ul class="navigation_list">
-          <li class="navigation_item"><a href="#">Информация</a></li>
-          <li class="navigation_item"><a href="#">Фото и видео</a></li>
-          <li class="navigation_item"><a href="#">Карта штата</a></li>
-          <li class="navigation_item"><a href="catalog.html">Гостиницы</a></li>
-        </ul>
+          </a>
+          <div class=" left_menu">
+            <ul class="navigation_list">
+              <li class="navigation_item"><a href="#">Информация</a></li>
+              <li class="navigation_item"><a href="#">Фото и видео</a></li>
+            </ul>
+          </div>
+          <div class="right_menu">
+            <ul class="navigation_list">
+              <li class="navigation_item"><a href="#">Карта штата</a></li>
+              <li class="navigation_item"><a href="catalog.html">Гостиницы</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <main class="container">
       <section class="main_background"></section>
       <section class="features">
-        <h2 class="visually-hidden">Преимущества</h2>
-        <div>
+        <!--<h2 class="visually-hidden">Преимущества</h2>-->
+        <div class="feature_info">
           <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
           <p>Рассмотрим 5 причин по которым Седона круче, чем Гранд Каньон!</p>
         </div>
         <ul class="features_list">
-          <li class="feature_item">
+          <li class="feature_item feature_1">
             <h3>Настоящий городок</h3>
             <p>Седона — не аттракцион для туристов, там течет своя жизнь</p>
             <img src="img/town.jpg" width="800" height="400" alt="Вид городка">
           </li>
-          <li class="feature_item">
+          <li class="feature_item feature_2">
             <h3>Там есть мост дьвола</h3>
             <p>Да, по нему можно пройти если конечно вы осмелитесь</p>
             <img src="img/canyon.jpg" width="800" height="400" alt="Вид каньона">
           </li>
-          <li class="feature_item">
+          <li class="feature_item feature_3">
             <h3>Небольшая площадь</h3>
             <p>Все достопримечательности находятся очень близко</p>
           </li>
-          <li class="feature_item">
+          <li class="feature_item feature_4">
             <h3>Красивая дорога</h3>
             <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
-          <li class="feature_item">
+          <li class="feature_item feature_5">
             <h3>Мало туристов</h3>
             <p>Большинство едет в Гранд Каньон и толпится там</p>
           </li>
+          <li class="feature_item feature_6">
+            <h3>Жильё</h3>
+            <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          </li>
+          <li class="feature_item feature_7">
+            <h3>Еда</h3>
+            <p>Всегда заказывайте Фирменный бургер, Вы не разочаруетесь!</p>
+          </li>
+          <li class="feature_item feature_8">
+            <h3>Сувениры</h3>
+            <p>Не только китайского, но и местного производства!</p>
+          </li>
         </ul>
-        <div>
-          <ul class="features_list">
-            <li class="feature_item">
-              <h3>Жильё</h3>
-              <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-            </li>
-            <li class="feature_item">
-              <h3>Еда</h3>
-              <p>Всегда заказывайте Фирменный бургер, Вы не разочаруетесь!</p>
-            </li>
-            <li class="feature_item">
-              <h3>Сувениры</h3>
-              <p>Не только китайского, но и местного производства!</p>
-            </li>
-          </ul>
-        </div>
       </section>
       <section class="reservation">
         <h2 class="visually-hidden">Бронирование</h2>
-        <div>
+        <div class="reservation-info">
           <p>Заинтересовались?</p>
           <p class="reservation_info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне.</p>
           <button type="button" class="button main_button_brown">Поиск гостиницы в Седоне</button>
@@ -107,7 +111,7 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="#">#visitsedona</a>
+      <a href="#" class="hashtag">#visitsedona</a>
       <div class="footer_social">
         <ul>
           <li><a class="social_button" href="https://twitter.com/" aria-label="Твиттер">Twitter</a></li>
