@@ -185,8 +185,6 @@ margin: auto;
 .feature_item  {
   display: block;
   text-align: center;
-  border: 1px solid green;
-
 }
 
 .feature_item h3 {
@@ -194,25 +192,23 @@ margin: auto;
   line-height: 26px;
 }
 
-.feature_1{
+.feature_item:nth-child(1) {
   order:-1;
   width: 100%;
 }
 
-.feature_6,
-.feature_7,
-.feature_8 {
+.feature_item:nth-child(5n+1){
   order: 0;
 }
 
-.feature_2,
-.feature_3,
-.feature_4,
-.feature_5 {
+.feature_item:nth-child(2),
+.feature_item:nth-child(3),
+.feature_item:nth-child(4),
+.feature_item:nth-child(5) {
   order: 1;
 }
 
-.feature_2 {
+.feature_item:nth-child(2) {
   width: 100%;
 }
 
@@ -232,7 +228,6 @@ margin: auto;
 .hotels_list {
   display: flex;
   flex-direction: column;
-  border: 1px solid green;
 }
 
 
