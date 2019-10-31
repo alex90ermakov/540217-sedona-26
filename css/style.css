@@ -249,7 +249,7 @@ input[type=number] {
 
   line-height: 21px;
   vertical-align: top;
-
+  text-align: center;
   background-color: #766357;
 }
 
@@ -267,8 +267,9 @@ input[type=number] {
   margin: 0 auto 0 84px;
   padding: 6px 33px 6px 36px;
 
+  font-weight: normal;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 21px;
   color: #ffffff;
   text-transform: uppercase;
 
@@ -696,7 +697,7 @@ input[type=number] {
 }
 
 .benefits__item:nth-child(2) {
-  padding-right: 58px;
+  padding-right: 57px;
   padding-left: 58px;
 }
 
@@ -771,7 +772,7 @@ input[type=number] {
   line-height: 24px;
 }
 
-.welcome {
+/*.welcome {
   background-color: #9edafe;
   background-image: url("../img/backgrounds/sedona-background.jpg");
   background-position-y: -56px;
@@ -815,7 +816,7 @@ input[type=number] {
 .about__text {
   width: 490px;
   margin: 0 auto 51px;
-}
+}*/
 
 .features {
   display: flex;
@@ -858,7 +859,7 @@ input[type=number] {
   align-items: flex-start;
 }
 
-.features__item--reverse {
+/*.features__item--reverse {
   flex-direction: row-reverse;
 }
 
@@ -907,9 +908,9 @@ input[type=number] {
 
 .features__column--emphasized .features__heading {
   padding-top: 0;
-}
+}*/
 
-.benefits {
+/*.benefits {
   position: relative;
 
   display: flex;
@@ -991,9 +992,9 @@ input[type=number] {
 
 .benefits__text {
   margin: 0;
-}
+}*/
 
-.search {
+/*.search {
   z-index: 1;
 
   padding-top: 57px;
@@ -1005,7 +1006,7 @@ input[type=number] {
   margin: 0 auto 46px;
 
   line-height: 24px;
-}
+}*/
 
 .search__heading {
   display: block;
@@ -1013,7 +1014,7 @@ input[type=number] {
 
   font-weight: 700;
   font-size: 30px;
-
+  line-height: 30px;
   overflow-wrap: break-word;
 }
 
