@@ -658,6 +658,7 @@ input[type=number] {
   font-weight: 700;
   font-size: 21px;
   line-height: 21px;
+  color:#000000;
 }
 
 .features__number {
@@ -750,7 +751,7 @@ input[type=number] {
 
   font-weight: 700;
   font-size: 21px;
-
+  color:#000000;
   overflow-wrap: break-word;
 }
 
@@ -821,6 +822,7 @@ input[type=number] {
   font-size: 30px;
   line-height: 30px;
   overflow-wrap: break-word;
+  color:#000000;
 }
 
 .map {
